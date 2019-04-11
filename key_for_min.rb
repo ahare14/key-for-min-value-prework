@@ -6,8 +6,8 @@ def key_for_min_value(name_hash)
     return nil
   else
     array = name_hash.to_a
-    d_value= 49
-    d_key= 0
+    low_value = array[0][1]
+    low_key = array[0][0]
     name_a.each do |i|
       if i[1] < d_value
         d_value = i[1]
