@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     return nil
   else
     name_a = name_hash.to_a
-    d_value= 10
+    d_value= 10000
     d_key= 0
     name_a.each do |i|
       if i[1] < d_value
