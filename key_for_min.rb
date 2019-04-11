@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   if name_hash = {}
     return nil
   else
-    array = name_hast.to_a
+    array = name_hash.to_a
     value_1 = 0
     key_1 = 0
     array.each do |i|
