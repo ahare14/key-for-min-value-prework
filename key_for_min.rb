@@ -23,4 +23,4 @@ name_a.each do |i|
 
 return d_key
 
-end  
+end
