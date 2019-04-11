@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
       smallest << name_hash[key[a]]
     else b > a
       smallest << name_hash[key[b]]
+    end
   end
   smallest
 end
