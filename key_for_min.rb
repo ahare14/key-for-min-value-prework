@@ -4,4 +4,5 @@
 def key_for_min_value(name_hash)
   name_hash.each do |key, value|
     key if value == hash.values.max
+  end
 end
